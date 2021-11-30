@@ -1,0 +1,177 @@
+/* CLASSES */
+
+.topline {
+  border: 10px solid;
+  border-top-color: #1098ad;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+.textalignment {
+  max-width: 950px;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding: 10px 15px;
+  background-color: #f7f7f7;
+  font-weight: bold;
+  width: 950px;
+  margin-bottom: 20px;
+}
+
+.textdiv {
+  border-left: 0px;
+  border-right: 0px;
+  width: 600px;
+  float: left;
+}
+
+.aside {
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 10px 20px;
+  background-color: #f7f7f7;
+  font-weight: bold;
+  width: 250px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.imgformat {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.button1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border: none;
+  color: black;
+  padding: 5px 8px;
+  font-weight: bolder;
+  font-size: 14px;
+  background-color: gold;
+  border: none;
+}
+
+.button1:hover {
+  background-color: greenyellow;
+  font-size: large;
+}
+
+.button2 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: auto;
+  float: right;
+}
+
+/* FOR LINKS */
+
+.nav {
+  float: right;
+  margin-top: 10px;
+}
+
+.navlinksorder {
+  margin-left: 15px;
+}
+
+a:link {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #1098ad;
+  font-size: 15px;
+  text-indent: 30px;
+  text-decoration: white;
+}
+
+a:active {
+  color: #1098ad;
+}
+
+a:hover {
+  background-color: greenyellow;
+  font-size: large;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+/* ETC. */
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #1098ad;
+  line-height: 1;
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #1098ad;
+  line-height: 1;
+  padding-top: 10px;
+  margin: 20px;
+  display: inline-block;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #1098ad;
+  line-height: 1;
+  padding-top: 10px;
+  margin: 0;
+  display: inline-block;
+}
+
+h4 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+  color: black;
+  line-height: 1;
+  margin: 5;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+li {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  margin-top: 1;
+  line-height: 1.5;
+}
+
+li:first-child {
+  font-style: normal;
+  font-weight: bolder;
+}
+
+li:last-child {
+  font-style: italic;
+}
